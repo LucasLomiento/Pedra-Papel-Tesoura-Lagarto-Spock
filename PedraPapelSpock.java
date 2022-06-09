@@ -6,13 +6,10 @@ public class PedraPapelSpock {
 	static Scanner console = new Scanner(System.in);
 	static Random sorteador = new Random();
 
-	static final byte[][] REGRAS_DO_JOGO = { { 0,-1, 1, 1,-1},
-											 { 1, 0,-1,-1, 1},
-											 {-1, 1, 0, 1,-1},
-											 {-1, 1,-1, 0, 1},
-											 { 1,-1, 1,-1, 0}};
+	static final byte[][] REGRAS_DO_JOGO = { { 0, -1, 1, 1, -1 }, { 1, 0, -1, -1, 1 }, { -1, 1, 0, 1, -1 },
+			{ -1, 1, -1, 0, 1 }, { 1, -1, 1, -1, 0 } };
 
-	static final String[] opcoes = { "Pedra", "Papel", "Tesoura","Lagarto","Spock" };
+	static final String[] opcoes = { "Pedra", "Papel", "Tesoura", "Lagarto", "Spock" };
 
 	static final byte GANHOU = 1;
 	static final byte EMPATOU = 0;
